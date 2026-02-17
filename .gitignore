@@ -1,0 +1,29 @@
+# Entornos virtuales
+venv/
+env/
+.venv/
+
+# Archivos confidenciales y secrets
+.env
+*.env
+secrets/
+secrets.json
+*.key
+*.pem
+*.secret
+credentials.json
+
+# Bases de datos
+*.db
+*.sqlite
+*.sqlite3
+
+# Archivos CSV
+*.csv
+
+# Cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
